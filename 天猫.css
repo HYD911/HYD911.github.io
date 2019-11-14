@@ -1,0 +1,89 @@
+/*body {
+    display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}*/
+/*html {
+    color: -internal-root-color;
+}*/
+div {
+	width: 95%;
+    display: block;
+    background: #C3C3C3;
+    margin: 0 auto;
+    display: flex;
+}
+ul li {
+    display: block;
+display: flex;
+    list-style: none;
+    flex-basis: 50%;
+    height: 600px;
+    text-align: center;
+    line-height: 42px;
+    transition: all 0.5s;
+}
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px;
+    margin: 0px;
+    transition: width 2s;
+}
+/*ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}*/
+.A{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width:420px;
+	border: #000000 dotted;
+	flex-shrink: 1;
+}
+.B{
+	position: relative;
+	/*top:115px;*/
+	left: 5px;
+	flex-direction: row;
+	width:420px;
+	border: #000000 dotted;
+	display: flex;
+	flex-shrink: 1;
+/*	border: #000000 solid;*/
+}
+
+
+.D{
+	position: relative;
+	/*top: 55px;*/
+	flex-direction: row;
+	width:420px;
+	border: #000000 dotted;
+	display: flex;	
+	flex-shrink: 1;
+	 top: 10px;
+	}
+	.C{
+		width: 420px;
+		border: #000000 dotted;
+		display: flex;
+		flex-shrink: 1;
+		position: relative;
+        top: 10px;
+	}
+a:hover{
+	color:red;
+	/*font-size: 25px;*/
+	flex-direction: row;
+	/*display: flex;*/
+}
